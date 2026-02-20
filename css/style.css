@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    padding-top: 75px;
+    /* height of navbar */
+}
+
+span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+}
+
+#para {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    text-align: justify;
+    font-size: larger;
+}
+
+.head {
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px gray;
+}
+
+.footer {
+    margin-top: 50px;
+}
+
+.footer h5 {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.footer p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.footer-link {
+    color: #ccc;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+    transition: 0.3s;
+}
+
+.footer-link:hover {
+    color: #fff;
+    padding-left: 5px;
+}
